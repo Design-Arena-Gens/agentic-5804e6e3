@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle at 10% 20%, #1b3c43 0%, #010409 75%);
+  background-attachment: fixed;
+  color: #e9edef;
+}
+
+body {
+  font-family: theme("fontFamily.sans");
+}
+
+* {
+  box-sizing: border-box;
+}
